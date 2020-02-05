@@ -1,0 +1,14 @@
+1. fill_blanks
+# 填充空缺数据，并将结果写到i_fill文件中
+
+2. strip segments
+# 将时间序列分割成片段，并将时间序列片段写到i_time_series_groups.txt文件中
+
+3.smooth_process： 出一个滤波效果图
+# idling_process
+# 处理一些怠速状态，将时间序列的怠速状态速度置零
+# smooth_filter
+# 对时间序列片段进行滤波
+# certify
+# 确认数据中是否存在加速度异常数据
+# 最后将数据汇总后存入All_groups_prepared.txt文件中
